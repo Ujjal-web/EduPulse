@@ -1,1 +1,1 @@
-EduPulse
+Frontend part of EduPulse
