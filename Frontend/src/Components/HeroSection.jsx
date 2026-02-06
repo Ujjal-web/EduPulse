@@ -26,7 +26,7 @@ const HeroSection = () => {
     ];
 
     return (
-        <div className="relative min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50 overflow-hidden">
+        <div className="relative min-h-screen bg-linear-to-br from-indigo-50 via-white to-purple-50 overflow-hidden">
             {/* Animated Background Elements */}
             <div className="absolute inset-0 overflow-hidden">
                 <div className="absolute top-20 left-10 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob"></div>
@@ -50,7 +50,7 @@ const HeroSection = () => {
                         {/* Main Headline */}
                         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight mb-6">
                             Welcome to
-                            <span className="block bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
+                            <span className="block bg-linear-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                                 EduPulse
                             </span>
                         </h1>
@@ -122,7 +122,7 @@ const HeroSection = () => {
 
                                 {/* Feature Cards */}
                                 <div className="space-y-4">
-                                    <div className="flex items-center gap-4 p-4 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl">
+                                    <div className="flex items-center gap-4 p-4 bg-linear-to-r from-indigo-50 to-purple-50 rounded-xl">
                                         <div className="bg-indigo-500 p-3 rounded-lg">
                                             <BookOpen className="w-6 h-6 text-white" />
                                         </div>
@@ -132,7 +132,7 @@ const HeroSection = () => {
                                         </div>
                                     </div>
 
-                                    <div className="flex items-center gap-4 p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl">
+                                    <div className="flex items-center gap-4 p-4 bg-linear-to-r from-purple-50 to-pink-50 rounded-xl">
                                         <div className="bg-purple-500 p-3 rounded-lg">
                                             <Award className="w-6 h-6 text-white" />
                                         </div>
@@ -142,7 +142,7 @@ const HeroSection = () => {
                                         </div>
                                     </div>
 
-                                    <div className="flex items-center gap-4 p-4 bg-gradient-to-r from-pink-50 to-indigo-50 rounded-xl">
+                                    <div className="flex items-center gap-4 p-4 bg-linear-to-r from-pink-50 to-indigo-50 rounded-xl">
                                         <div className="bg-pink-500 p-3 rounded-lg">
                                             <Calendar className="w-6 h-6 text-white" />
                                         </div>
@@ -173,7 +173,7 @@ const HeroSection = () => {
                             </div>
 
                             {/* Floating Badge */}
-                            <div className="absolute -top-4 -right-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-full shadow-lg transform rotate-12 hover:rotate-0 transition-transform duration-300">
+                            <div className="absolute -top-4 -right-4 bg-linear-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-full shadow-lg transform rotate-12 hover:rotate-0 transition-transform duration-300">
                                 <div className="text-xs font-semibold">2026 Ready</div>
                             </div>
 
