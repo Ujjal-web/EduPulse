@@ -1,12 +1,26 @@
-import React from 'react';
-import { Outlet } from 'react-router';
+import React from "react";
+import { Outlet } from "react-router";
+import Navbar from "../Components/shares/Navbar";
 
-const Mainlayouts = () => {
+const MainLayouts = () => {
   return (
-    <div>
-      <Outlet />
-    </div>
+    <>
+      {/* header */}
+      <header>
+        <Navbar/>
+      </header>
+
+      {/* main */}
+      <main>
+        <Outlet />
+      </main>
+
+      {/* footer */}
+      <footer>
+        {/* footer box */}
+      </footer>
+    </>
   );
 };
 
-export default Mainlayouts;
+export default MainLayouts;
